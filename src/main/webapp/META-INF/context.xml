@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SpaziPub">
+  <Resource auth="Container" 
+    driverClassName="com.mysql.jdbc.Driver" 
+    maxActive="8" 
+    maxIdle="4" 
+    name="jdbc/engimDatabase" 
+    password="lucio" 
+    type="javax.sql.DataSource" 
+    url="jdbc:mysql://localhost:3306/luciocrusca_spazipub?zeroDateTimeBehavior=convertToNull&amp;autoReconnect=true" 
+    username="root"/>  
+</Context>
+
